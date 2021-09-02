@@ -294,6 +294,7 @@ var isFind= dishes.find(function(dish, index){
      return dish.price ==='0$';
  })
 
-console.log(isFind)
+//console.log(isFind)
 
 //filter() nhu find() tim kiem nhieu thang thoa man
+
