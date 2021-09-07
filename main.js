@@ -248,23 +248,23 @@ var languages =['php','js','java','C++']
 // array phan 2 array
 // ham 
 
-var dishes=[
-    {
-        id:1,
-        name:'soup',
-        price:'2$'
-    },
-    {
-        id:2,
-        name:'bbq',
-        price:'20$'
-    },
-    {
-        id:3,
-        name:'noodle',
-        price:'0$'
-    }
-];
+// var dishes=[
+//     {
+//         id:1,
+//         name:'soup',
+//         price:'2$'
+//     },
+//     {
+//         id:2,
+//         name:'bbq',
+//         price:'20$'
+//     },
+//     {
+//         id:3,
+//         name:'noodle',
+//         price:'0$'
+//     }
+// ];
 
 //foreach de duyet phan tu 
 
@@ -273,28 +273,60 @@ var dishes=[
 // });
 
 //every()
-var isFree= dishes.every(function(dish, index){
-  //  console.log(index)
-    return dish.price ==='0$';
-})
+// var isFree= dishes.every(function(dish, index){
+//   //  console.log(index)
+//     return dish.price ==='0$';
+// })
 
 //console.log(isFree) // false is free
 
 //some() 1 ong thoa man dieu kien dung la duoc 
-var isFreeOne= dishes.some(function(dish, index){
-   // console.log(index)
-    return dish.price ==='0$';
-})
+// var isFreeOne= dishes.some(function(dish, index){
+//    // console.log(index)
+//     return dish.price ==='0$';
+// })
 
 //console.log(isFreeOne)
 
 //find() tim kiem 1 phan tu neu dung thi true no thi undifine
-var isFind= dishes.find(function(dish, index){
-    // console.log(index)
-     return dish.price ==='0$';
- })
+// var isFind= dishes.find(function(dish, index){
+//     // console.log(index)
+//      return dish.price ==='0$';
+//  })
 
 //console.log(isFind)
 
 //filter() nhu find() tim kiem nhieu thang thoa man
+//----------------------------------------------------------------
 
+// NEXT LESSON map()
+
+// var dishes=[
+//     {
+//         id:1,
+//         name:'soup',
+//         price:2
+//     },
+//     {
+//         id:2,
+//         name:'bbq',
+//         price:10
+//     },
+//     {
+//         id:3,
+//         name:'noodle',
+//         price: 4
+//     }
+// ];
+// function fix(name){
+    
+// };
+// // var newName = dishes.map(fix);
+// var i=0;
+// function priceTotalPrice(accumulator,currentValue,currentIndex) {
+//     return accumulator+currentValue.price;
+//    }
+
+// var totalPrice = dishes.reduce(priceTotalPrice, 0);
+
+// console.log(totalPrice)
